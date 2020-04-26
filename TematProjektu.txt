@@ -1,1 +1,0 @@
-1.Uk³ad precyzyjnej regulacji temperatury wody w oparciu o sterownik Arduino.
