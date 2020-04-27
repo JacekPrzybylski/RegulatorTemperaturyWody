@@ -91,13 +91,14 @@ img {
 
 #header_main {
 	width: 1000px;
-	height: 350px;
+	height: 480px;
 	float: left;
 }
 
 #header_main_text {
-	width: 390px;
-	height: 330px;
+	width: 46
+		0px;
+	height: 450px;
 	float: right;
 	background: #EDEAE1;
 	margin-top: 2px;

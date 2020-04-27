@@ -20,8 +20,8 @@
         </div>
         <div id="header_menu">
         	<ul>
-            	<li><a href="index.html">home</a></li>
-				<li><a href="temat.html">Temat</a></li>
+            	<li><a href="index.html">Temat</a></li>
+				
                 <li><a href="założenia.html">Założenia</a></li>
                 <li><a href="ramy czasowe.html">Ramy czasowe projektu </a></li>
                 <li><a href="noty i schematy.html">Noty / schematy&nbsp;&nbsp; </a></li>
@@ -29,62 +29,42 @@
             </ul>
         </div>
 	<div id="header_main">
-    <div id="header_main_image"></div>
-    	<div id="header_main_text">
-        	<h2>Układ regulacji</h2>
-            <p> to układ w którym występuje sprzężenie zwrotn. W takich układach regulacji wystepuje obiekt regulacji i regulator.&nbsp;&nbsp; </p>
-			<h2>Obiekt regulacji</h2>
-            <p> Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut 
-              laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation 
-              ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.</p>
-			<h2>Regulator</h2>
-<p>&nbsp;  </p>
+	  <div id="header_main_text">
+   	    <h2>Założenia</h2>
+            <p> Zadanie projektowe będzie wykonywane w zespole jednoosobowym. W związku z tym faktem wykonawcą wszystkich zadań projektowych i liderem zespołu automatycznie staje się Jacek Przybylski. W projekcie na platformie github.com będzie 2 uczestników. Drugi uczestnik nie będzie brał aktywnego udziału w tworzeniu i wykonywaniu projekt. Będzie „uczestnikiem wirtualnym” i jest nim prowadzący przedmiot. Zabieg ten ma na celu danie prowadzącemu stałego wglądu w postęp projektu.</p>
+			<h2></h2>
+            <p> W przypadku wystąpienia w projekcie kamieni milowych prowadzący przedmiot otrzyma informacje z platformy Github.com z prośbę o wgląd, ocenę,  przedstawienie sugestii lub inną prośbę o działanie. W związku, iż jest to mój pierwszy projekt na platformie Github.com niezależnie od wysłania prośby za pomocą platformy zostanie również wysłany mail zawierający prośbę o wgląd w projekt lub inne działanie z bezpośrednim linkiem do strony projektu.</p>
+			<h2></h2>
+			<p>Zadanie projektowe wymaga działań wielopłaszczyznowych i w kilku obszarach jednocześnie. Oto szkic wstępny, który zostanie zmodyfikowany zaraz po rozpoczęciu poszczególnych etapów projektu- ma jedynie za zadanie nadanie wstępnego kierunku prac, rozeznanie i rozplanowanie poszczególnych etapów projektu oraz ich składowych. </p>
+			<h2>Oprogramowanie</h2>
+			<p>
+		    <ol>Budowa strony projektu Dreamweaver- html, css, Photoshop grafika rastrowa, Ilustrator- grafika wektorowa</ol>
+			<ol>Obsługa przesyłania plików do platformy-Git, TortoiseGit lub GitHubDesktop.</ol>
+			<ol>Środowisko programistyczne dla Arduino IDE lub VSCode .</ol>
+			</p>
+		<h2></h2>
+			<p></p>
         </div>
 	</div>
-    <div id="boxy">
-		
-    		<div id="boxy_text_1">
-        	<h2>Ementy skladowe układu regulacji</h2>
-            <span>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
-            </span>
-            </div>
-            <div id="boxy_images">
-            <img src="images/arduino.jpg" />
-            <img src="images/DS18B20.jpg" />
-            <img src="images/płytka stykowa.jpg" />
-            <img src="images/LCD 16X4.jpg" />
-            <img src="images/grzałka.jpg" />
-            </div>
-
-    </div>    
+    
     <div id="boxy_content">
-    	<div id="boxy_content_lx">
-        	<h2>P</h2>
-            <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut 
-            laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation 
-            ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-            </p>
-        </div>
-    	<div id="boxy_content_lx" class="margin_l40">
-        	<h2>I</h2>
-            <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut 
-            laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation 
-            ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-            </p>
-        </div>
-    	<div id="boxy_content_lx" class="margin_l40">
-        	<h2>D</h2>
-            <p>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut 
-            laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation 
-            ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
-            </p>
-        </div>
-    </div>
-    <div id="footer">
+		
+	  <h2>
+		Głównym założeniem projektu jest stworzenie precyzyjnego układu regulacji temperatury wody. Proponuję, aby taki układ&nbsp; składał się z następujących elementów:</h2>
+            <p>•	Sterownika Arduino uno.<br />
+              •	Termometru cyfrowego odpornego na działanie wody, wybrałem do tego celu termometr DS18B20 w specjalnym wodoszczelnym wykonaniu.<br />
+              •	Elementu grzejnego (tu jeszcze nie podjąłem decyzji co do konkretnego modelu) Ze względu na bezpieczeństwo prototypowania rozważam grzałkę na napięcie 12V o mocy 30W, lecz obawiam się, że niewielka moc spowoduje dużą bezwładność układu. 
+              Intuicyjnie zastosowałbym grzałkę na napięcie 230V o mocy od  300 -1kW. Rodzi to jednak niebezpieczeństwo porażenia podczas prototypowania lub uszkodzenia sterownika.<br />
+              •	W przypadku chęci budowy regulatora precyzyjnego załączenie elementu grzejnego będzie realizowane przez Triak BTA24-600BW z możliwością płynnej regulacji mocy.<br />
+              •	Do wejść analogowych sterownika Arduino podłączę 4 sztuki potencjometrów (elementy dzielnika napięcia) będą służyły do: <br />
+              Potencjometr 1-zadawania temperatury zadanej( proponowałbym pomiędzy 50-75’C).<br />
+              Potencjometr 2,3,4 będą odpowiadały za zadawanie nastaw dla członów regulatora PID. <br />
+              •	Regulacja PID w sterowniku będzie realizowana za pomocą biblioteki.<br />
+              •	Wyświetlacz LCD będzie drukował informacje o nastawach i odczytanych wartościach procesu.<br />
+              •	Z wyjścia PWM sterownika wysteruję element grzejny.<br />
+              •	Na stałe w naczyniu procesowym zamontuję na dnie mieszadło aby, wyeliminować nierównomierny rozkład temperatury wody. <br />
+            •	Do układu regulacji w naczyniu procesowym będę dostarczał zakłócenia w formie  kostek lodu lub dostarczenia ciepła do układu.</p>
+    </div><div id="footer">
     © Wszelkie prawa zastrzeżone. <br> Projekt: <a href="https://www.linkedin.com/in/jacek-przybylski-8129154b">Jacek Przybylski /PL</a>
     </div>
     </div>
